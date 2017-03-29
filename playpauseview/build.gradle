@@ -38,7 +38,7 @@ publish {
     groupId = 'com.github.romancha'
     artifactId = 'MaterialPlayPauseViewButton'
     repoName = 'romancha-repo'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     website = 'https://github.com/Romancha/android-material-play-pause-view-button'
     desc = "MaterialPlayPauseViewButton that toggle play/pause with material animation"
 }
