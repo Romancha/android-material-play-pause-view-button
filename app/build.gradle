@@ -4,7 +4,6 @@ android {
     compileSdkVersion 24
     buildToolsVersion '25.0.0'
     defaultConfig {
-        applicationId 'com.romancha.playpauseview'
         minSdkVersion 14
         targetSdkVersion 24
         versionCode 1
@@ -19,6 +18,11 @@ android {
     }
     productFlavors {
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
 }
 
 dependencies {
