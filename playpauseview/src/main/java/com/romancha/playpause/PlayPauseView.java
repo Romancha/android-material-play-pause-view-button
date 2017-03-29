@@ -154,6 +154,14 @@ public class PlayPauseView extends FrameLayout {
         mDrawable.draw(canvas);
     }
 
+    public boolean onPlaying() {
+        return mDrawable.isPlay();
+    }
+
+    public boolean onPause() {
+        return !mDrawable.isPlay();
+    }
+
     /**
      * Toogle the play/pause status
      */
