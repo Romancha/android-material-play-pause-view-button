@@ -34,7 +34,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 publish {
-    userOrg = 'romancha'
     groupId = 'com.github.romancha'
     artifactId = 'MaterialPlayPauseViewButton'
     repoName = 'romancha-repo'
