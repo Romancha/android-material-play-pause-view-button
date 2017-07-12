@@ -13,9 +13,9 @@ This an improvements of the [OHoussein PlayPauseView](https://github.com/OHousse
 Add the following to your project level <i>build.gradle</i>:
 ```
 allprojects {
-    	repositories {
-	        	maven { url "https://dl.bintray.com/romancha/romancha-repo" }
-    	}
+    repositories {
+        maven { url "https://dl.bintray.com/romancha/romancha-repo" }
+    }
 }
 ```
 Add this to your app <i>build.gradle</i>:
