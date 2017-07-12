@@ -2,13 +2,14 @@
 
 This an improvements of the [OHoussein PlayPauseView](https://github.com/OHoussein/android-material-play-pause-view) and [Alex Lockwood's PlayPauseView](https://github.com/alexjlockwood/material-pause-play-animation).
 
-#Demo
+# Demo
 <div  align="center">    
 <img src="https://raw.githubusercontent.com/Romancha/android-material-play-pause-view-button/master/media/demo.gif" alt="demo" align=center />
 </div>
- 
-#Usage
-##Gradle dependency:
+
+# Usage
+
+## Gradle dependency:
 Add the following to your project level <i>build.gradle</i>:
 ```
 allprojects {
@@ -27,7 +28,7 @@ dependencies {
 
  
  
-#License
+# License
 
 The MIT License (MIT)
 
