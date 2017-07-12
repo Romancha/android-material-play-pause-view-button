@@ -38,6 +38,9 @@ publish {
     artifactId = 'MaterialPlayPauseViewButton'
     repoName = 'romancha-repo'
     publishVersion = '1.0.1'
+    desc = 'MaterialPlayPauseViewButton that toggle play/pause with material animation'
     website = 'https://github.com/Romancha/android-material-play-pause-view-button'
-    desc = "MaterialPlayPauseViewButton that toggle play/pause with material animation"
+    issueTracker = 'https://github.com/Romancha/android-material-play-pause-view-button/issues'
+    repository = 'https://github.com/Romancha/android-material-play-pause-view-button.git'
+    licences = ['MIT']
 }
