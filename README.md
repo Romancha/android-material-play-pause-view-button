@@ -7,6 +7,27 @@ This an improvements of the [OHoussein PlayPauseView](https://github.com/OHousse
 <img src="https://raw.githubusercontent.com/Romancha/android-material-play-pause-view-button/master/media/demo.gif" alt="demo" align=center />
 </div>
  
+#Usage
+<b>Gradle dependency:<b/>
+
+Add the following to your project level <i>build.gradle</i>:
+```
+allprojects {
+    	repositories {
+	        	maven { url "https://dl.bintray.com/romancha/romancha-repo" }
+    	}
+}
+```
+Add this to your app <i>build.gradle</i>:
+```
+dependencies {
+    compile 'com.github.romancha:MaterialPlayPauseViewButton:1.0.1'
+}
+```
+
+
+ 
+ 
 #License
 
 The MIT License (MIT)
