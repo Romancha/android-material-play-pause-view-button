@@ -1,8 +1,8 @@
-package com.romancha.playpauseview
+package org.romancha.playpauseview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.romancha.playpause.PlayPauseView
+import org.romancha.playpause.PlayPauseView
 
 class PlayPauseTestActivity : AppCompatActivity() {
 

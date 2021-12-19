@@ -1,4 +1,4 @@
-package com.romancha.playpause;
+package org.romancha.playpause;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

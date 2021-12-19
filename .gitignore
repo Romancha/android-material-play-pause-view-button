@@ -8,4 +8,3 @@ app/src/main/assets/paperwork.json
 *.iml
 gradlew
 gradlew.bat
-gradle
