@@ -8,7 +8,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.romancha.playpauseview.PlayPauseTestActivity">
+        <activity android:name="com.romancha.playpauseview.PlayPauseTestActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,24 +1,18 @@
-package com.romancha.playpauseview;
+package com.romancha.playpauseview
 
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.romancha.playpause.PlayPauseView
 
-import com.romancha.playpause.PlayPauseView;
+class PlayPauseTestActivity : AppCompatActivity() {
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
 
-public class PlayPauseTestActivity extends AppCompatActivity {
+        setContentView(R.layout.activity_play_pause_test)
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_play_pause_test);
-        final PlayPauseView view = (PlayPauseView) findViewById(R.id.play_pause_view);
-        view.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                view.toggle();
-            }
-        });
+        val view = findViewById<PlayPauseView>(R.id.play_pause_view)
+
+        view.setOnClickListener { view.toggle() }
     }
 }
