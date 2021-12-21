@@ -18,7 +18,9 @@ Add the following to your project level <i>build.gradle</i>:
 ```groovy
 allprojects {
     repositories {
-        maven { url 'https://jitpack.io' }
+        maven {
+            url 'https://jitpack.io'
+        }
     }
 }
 ```
@@ -27,7 +29,7 @@ Add this to your app <i>build.gradle</i>:
 
 ```groovy
 dependencies {
-    compile 'com.github.Romancha:android-material-play-pause-view-button:2.3'
+    implementation 'com.github.Romancha:android-material-play-pause-view-button:2.3'
 }
 ```
 
