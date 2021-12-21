@@ -42,7 +42,7 @@ afterEvaluate {
 
                 groupId = 'org.romancha.playpauseview'
                 artifactId = 'materialplaypauseview'
-                version = '2.2'
+                version = '2.3'
             }
         }
     }
