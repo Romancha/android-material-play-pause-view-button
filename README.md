@@ -15,7 +15,7 @@ and [Alex Lockwood's PlayPauseView](https://github.com/alexjlockwood/material-pa
 
 Add the following to your project level <i>build.gradle</i>:
 
-```
+```groovy
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
@@ -25,7 +25,7 @@ allprojects {
 
 Add this to your app <i>build.gradle</i>:
 
-```
+```groovy
 dependencies {
     compile 'com.github.Romancha:android-material-play-pause-view-button:2.3'
 }
@@ -35,16 +35,10 @@ dependencies {
 
 ```xml
 
-<org.romancha.playpause.PlayPauseView
-  android:id="@+id/play_pause_view"
-  android:layout_width="60dp"
-  android:layout_height="60dp"
-  android:clickable="true"
-  android:focusable="true"
-  android:foreground="?android:selectableItemBackground"
-  app:fill_color="#e1e1e1"
-  app:pause_bg="#00a2ed"
-  app:play_bg="#001eff"/>
+<org.romancha.playpause.PlayPauseView android:id="@+id/play_pause_view" android:layout_width="60dp"
+    android:layout_height="60dp" android:clickable="true" android:focusable="true"
+    android:foreground="?android:selectableItemBackground" app:fill_color="#e1e1e1" app:pause_bg="#00a2ed"
+    app:play_bg="#001eff" />
 ```
 
 - pause_bg : the background for the pause status
@@ -58,8 +52,8 @@ dependencies {
 ```kotlin
 val playPauseView = layout.findViewById<PlayPauseView>(R.id.play_pause_view)
 playPauseView.setOnClickListener {
-  // View clicked
-  playPauseView.toggle()
+    // View clicked
+    playPauseView.toggle()
 }
 ```
 
